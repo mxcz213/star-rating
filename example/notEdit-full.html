@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>评分插件-用来展示分数</title>
+	<link style="text/css" rel="stylesheet" href="../component/css/star-rating.css">
+</head>
+<body>
+	<div id="starWapper"></div>
+	<script type="text/javascript" src="../component/js/star.js"></script>
+	<script type="text/javascript">
+		var starWapper = document.getElementById('starWapper');
+		var star = new StarRating({
+			parentId:starWapper,
+			size:48,
+			score:4.5,
+			len:5,
+			isEdit:false,
+			isContainHalf:false,
+			onSelect:function(starCount){
+				console.log(starCount);
+			}
+		});
+		
+	</script>
+</body>
+</html>
