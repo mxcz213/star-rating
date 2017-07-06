@@ -15,7 +15,7 @@
 没有小数展示整数棵星星出来，例如：4就展示4棵整数星星
 
 1.可编辑的整颗星星
-![image](https://raw.githubusercontent.com/mxcz213/star-rating/project-img-readme/1111.gif)
+![image](https://raw.githubusercontent.com/mxcz213/star-rating/master/project-img-readme/1111.gif)
 
 2.可编辑的半颗星星
 ![image](https://github.com/mxcz213/star-rating/project-img-readme/2222.gif)
