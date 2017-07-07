@@ -166,6 +166,9 @@
 			if(this.isEdit){
 				span.style.cursor = 'pointer';
 			}
+			else{
+				span.style.cursor = 'not-allowed';
+			}
 			spanFragment.appendChild(span);
 		}
 		this.parentId.appendChild(spanFragment);
