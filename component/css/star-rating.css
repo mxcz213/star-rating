@@ -7,7 +7,7 @@ body,html{
 }
 .star .star-item{
 	display: inline-block;
-	background-repeat: no-repeat;  
+	background-repeat: no-repeat;
 }
 /*size:48*/
 .star.star-48 .star-item{
@@ -15,6 +15,12 @@ body,html{
 	height:20px;
 	background-size:20px 20px;
 	margin-right:22px;
+	transition:all .3s;
+	-webkit-transition:all .3s;
+}
+.star.star-48 .star-item:hover{
+	transform: scale(1.1);
+	-webkit-transform:scale(1.1);
 }
 .star.star-48 .star-item.on{
 	background-image: url(../images/star48_on@2x.png);
